@@ -12,16 +12,16 @@ for (const element of toggle) {
 const links = document.querySelectorAll('nav ul li a')
 
 for (const link of links) {
-  link.addEventListener('click', function() {
+  link.addEventListener('click', function () {
     nav.classList.remove('show')
   })
 }
 
 /* Mudar o header da página quando der scroll */
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight
+function changeHeaderWhenScroll() {
+  const header = document.querySelector('#header')
+  const navHeight = header.offsetHeight
 
-window.addEventListener('scroll', function() {
   if (window.scrollY >= navHeight) {
     // Scrol é maior que a altura do header
     header.classList.add('scroll')
@@ -29,26 +29,25 @@ window.addEventListener('scroll', function() {
     // Menor que a altura do header
     header.classList.remove('scroll')
   }
-})
+}
 
-// Testimonials carousel slider swiper
+/* Testimonials carousel slider swiper */
 const swiper = new Swiper('.swiper', {
   slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination',
-    clickable: true,
+    clickable: true
   },
   mousewheel: true,
   keyboard: true,
-  
 
   // Swiper 7
   watchOverflow: false,
   resizeObserver: false,
   watchSlidesProgress: true
-});
+})
 
-// Scrollreveal: Mostrar elementos quando der scroll na página
+/* Scrollreveal: Mostrar elementos quando der scroll na página */
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
@@ -61,5 +60,25 @@ scrollReveal.reveal(
   #about .image, #about .text,
   #services header, #services .card,
   #testimonials header, #testimonials .testimonials,
-  #contact .text, #contact .links
-  `, { interval: 100})
+  #contact .text, #contact .links,
+  footer .brand, footer .social
+  `,
+  { interval: 100 }
+)
+
+/* Botão voltar para o topo */
+function backToTop() {
+  const backToTopButton = document.querySelector('.back-to-top')
+
+  if (window.scrollY >= 750) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+}
+
+/* When Scroll */
+window.addEventListener('scroll', function () {
+  changeHeaderWhenScroll()
+  backToTop()
+})
