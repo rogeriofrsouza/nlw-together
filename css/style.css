@@ -23,7 +23,7 @@ img {
   font-size: 100%; /* 16px */
   --header-height: 4.5rem;
 
-  /* colors */
+  /* Colors */
   --hue: 159;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
@@ -35,7 +35,7 @@ img {
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
 
-  /* fonts */
+  /* Fonts */
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
 
@@ -209,7 +209,7 @@ nav .menu ul {
   display: none;
 }
 
-/* Mostrar menu */
+/* Show menu */
 nav.show .menu {
   opacity: 1;
   visibility: visible;
@@ -528,9 +528,9 @@ footer .social a:hover {
 }
 
 /*======== MEDIA QUERIES ========*/
-/* extra large devices: 1200 */
+/* Extra large devices: 1200 */
 @media (min-width: 1200px) {
-  /* reusable classes */
+  /* Reusable classes */
   .container {
     max-width: 1120px;
     margin-left: auto;
@@ -553,7 +553,7 @@ footer .social a:hover {
     height: 3.125rem;
   }
 
-  /* navigation */
+  /* Navigation */
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -579,12 +579,12 @@ footer .social a:hover {
     display: none;
   }
 
-  /* layout */
+  /* Layout */
   main {
     margin-top: var(--header-height);
   }
 
-  /* home */
+  /* Home */
   #home .container {
     grid-auto-flow: column;
     justify-content: space-between;
@@ -601,13 +601,13 @@ footer .social a:hover {
     text-align: left;
   }
 
-  /* about */
+  /* About */
   #about .container {
     margin: 0 auto;
     grid-auto-flow: column;
   }
 
-  /* services */
+  /* Services */
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -617,13 +617,13 @@ footer .social a:hover {
     padding-right: 3rem;
   }
   
-  /* testimonials */
+  /* Testimonials */
   #testimonials .container {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* contact */
+  /* Contact */
   #contact .container {
     grid-auto-flow: column;
     align-items: center;
@@ -634,7 +634,7 @@ footer .social a:hover {
     text-align: left;
   }
 
-  /* footer */
+  /* Footer */
   footer.section {
     padding: 3.75rem 0;
   }
@@ -649,9 +649,9 @@ footer .social a:hover {
   }
 }
 
-/* large devices: 1023 */
+/* Large devices: 1023 */
 
-/* large devices: 992 */
+/* Large devices: 992 */
 @media (min-width: 992px) {
   :root {
     --title-font-size: 2.25rem;
@@ -659,4 +659,4 @@ footer .social a:hover {
   }
 }
 
-/* medium devices: 767 (tablets)*/
+/* Medium devices: 767 (tablets)*/

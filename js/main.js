@@ -1,4 +1,4 @@
-/* Abre e fecha o menu quando clicar no ícone: burger e x */
+/* Open and close menu - onclick icons: burger and x */
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
@@ -8,7 +8,7 @@ for (const element of toggle) {
   })
 }
 
-/* Quando clicar em um item do menu, esconder o menu */
+/* Hide menu - onclick li item */
 const links = document.querySelectorAll('nav ul li a')
 
 for (const link of links) {
@@ -17,7 +17,7 @@ for (const link of links) {
   })
 }
 
-/* Mudar o header da página quando der scroll */
+/* Change page header - onscroll */
 const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
 
@@ -54,8 +54,8 @@ const swiper = new Swiper('.swiper', {
   }
 })
 
-/* Scrollreveal: Mostrar elementos quando der scroll na página */
-const scrollReveal = ScrollReveal({
+/* Scrollreveal: Show elements onscroll */
+const scrollReveal = ScrollReveal ({
   origin: 'top',
   distance: '30px',
   duration: 700,
@@ -73,7 +73,7 @@ scrollReveal.reveal(
   { interval: 100 }
 )
 
-/* Botão voltar para o topo */
+/* Button: Back to top */
 const backToTopButton = document.querySelector('.back-to-top')
 
 function backToTop() {
@@ -84,7 +84,7 @@ function backToTop() {
   }
 }
 
-/* Menu ativo conforme a seção visível na página */
+/* Menu highlight on current section */
 const sections = document.querySelectorAll('main section[id]')
 
 function activateMenuAtCurrentSection() {
