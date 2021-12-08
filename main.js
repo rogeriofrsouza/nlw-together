@@ -40,7 +40,6 @@ const swiper = new Swiper('.swiper', {
   },
   mousewheel: true,
   keyboard: true,
-  
 
   // Swiper 7
   watchOverflow: false,

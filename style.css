@@ -333,7 +333,7 @@ nav.show div.icon-close {
   gap: 1.5rem;
 }
 
-.card{
+.card {
   padding: 3.625rem 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
@@ -432,7 +432,6 @@ nav.show div.icon-close {
 #contact ul li i {
   font-size: 1.5rem;
   margin-right: 0.625rem;
-
 }
 
 #contact ul.grid {
