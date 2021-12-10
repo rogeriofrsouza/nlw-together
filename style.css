@@ -414,7 +414,7 @@ nav.show div.icon-close {
 /* Swiper */
 .swiper-slide {
   height: auto;
-  padding: 4rem 1rem;
+  padding: 4rem 1.5rem;
 }
 
 .swiper-pagination-bullet {
@@ -470,9 +470,9 @@ footer .brand p {
 }
 
 footer .social a {
+  display: inline-block;
   margin-right: 2rem;
   transition: 0.3s;
-  display: inline-block;
 }
 
 footer .social a:hover {
@@ -527,5 +527,3 @@ footer i {
 }
 
 /* medium devices: 767 > (tablets)*/
-
-
