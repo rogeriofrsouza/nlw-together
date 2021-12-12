@@ -23,10 +23,10 @@ const navHeight = header.offsetHeight
 
 function changeHeaderWhenScroll() {
   if (window.scrollY >= navHeight) {
-    // Scrol é maior que a altura do header
+    // Window scroll is higher than header height
     header.classList.add('scroll')
   } else {
-    // Menor que a altura do header
+    // Lower than header height
     header.classList.remove('scroll')
   }
 }
