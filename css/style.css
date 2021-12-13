@@ -415,7 +415,7 @@ nav.show div.icon-close {
 /* Swiper */
 .swiper-slide {
   height: auto;
-  padding: 4rem 1rem;
+  padding: 4rem 1.5rem;
 }
 
 .swiper-pagination-bullet {
