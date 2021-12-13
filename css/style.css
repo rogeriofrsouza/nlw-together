@@ -524,17 +524,17 @@ footer .social a {
 /*==== MEDIA QUERIES ===================================*/
 
 /* Low resolution tablets, mobiles (landscape) */
-@media (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   
 }
 
 /* Tablets, Ipads (landscape) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   
 }
 
 /* Laptops, desktops */
-@media (min-width: 1025px) and (max-width: 1280px) and (hover: hover) and (pointer: fine) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) and (hover: hover) and (pointer: fine) {
   :root {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
@@ -561,7 +561,7 @@ footer .social a {
 }
 
 /* Large desktops */
-@media (min-width: 1281px) {
+@media screen and (min-width: 1281px) {
   /* Reusable classes */
   .container {
     max-width: 1120px;
