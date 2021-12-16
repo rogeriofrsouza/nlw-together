@@ -55,7 +55,7 @@ You may check the project layout [here](https://www.figma.com/community/file/100
 
 ## 📝 License
 
-This project is under MIT License. You can check [LICENSE](https://github.com/rogeriofrsouza/nlw-together/blob/main/LICENSE) for more details.
+This project is under MIT License. You can check [LICENSE](https://github.com/rocketseat-education/nlw-06-origin/blob/main/.github/LICENSE.md) for more details.
 
 <br/>
 
