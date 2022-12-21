@@ -1,7 +1,7 @@
 <h1 align="center">:man_astronaut: Mission: Origin :comet:</h1>
 
 <p align="center">
-  <a href="https://rogeriofrsouza.github.io/nlw-together-origin/">Page</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://rogeriofrsouza.github.io/nlw-together/">Page</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tech-stack">Tech Stack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://rogeriofrsouza.github.io/nlw-together-origin/" target="_blank">
+  <a href="https://rogeriofrsouza.github.io/nlw-together/" target="_blank">
     <img alt="OriginSix" src="assets/photos/preview.png" width="100%">
   </a>
 </p>
